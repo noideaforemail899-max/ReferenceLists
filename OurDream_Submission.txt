@@ -1,0 +1,389 @@
+Rules for Public Character and 
+Community Presets
+Approval and Rejection
+(updated Apr 2, 2026)
+
+UPDATES:
+Jan 10, 2026: Adjust group chat requirements
+Jan 13, 2026: Added Case-by-Case “Sexual Conversion Scenario”
+Jan 14, 2026: Added Case-by-Case “Prostitution / Sex-Work Motivation”
+Jan 17, 2026: Added “IP Restriction” section
+Apr 2, 2026: Added rejection rules for racial slurs and degradation, vore. Added “Community Preset” guidelines and requirements, updated Animals in PFP ruling
+May 17, 2026: Revamp of “Community Preset” guidelines. 
+
+
+If you believe your character or scenario may result in being rejected for one of the below reasons please consider modifying. This will: 
+1. Ensure your character is approved if it meets the quality standards of the site and
+2. Save the MODS time reviewing characters that you know will be rejected, allowing more characters to be approved and building the quality of the catalog.
+
+Besides the quantitative and ToS requirements listed below, the mods are also entrusted to make subjective judgement calls on overall quality. This means sometimes your character may be rejected even if it meets all minimum requirements and does not break ToS. This is not meant as a punishment or insult, but an invitation to keep working on your character and re-submit them. This also means your character may get approved by one mod but rejected by another, or that previously approved characters get rejected when you resubmit them. There is no limit on re-submitting and if you're feeling like the rejection notice did not provide you with enough guidance, please reach out to one of the mods on the discord.
+
+We appreciate this can be frustrating, but ask that you remember that the mods are human, and are trying their best to ensure OurDream continues to offer the best quality possible to the users. We're very proud of the amazing characters you all make, and we want to work with you to keep making OurDream incredible!
+
+
+Requirements and Character Counts
+
+Individual Characters
+
+You must modify the default AI text that is generated in the Personality, Public Description, Scenario, Greeting and Extra Details
+
+Field
+Minimum
+Maximum
+Public Description
+
+200
+2,000
+Scenario
+
+1,000
+50,000
+Extra Details + Additional Personality Details
+1,200
+ED - 100,000
+APD - 50,000
+Greeting
+50
+Disclaimer: This may be waived for exceptionally well-written greetings
+10,000
+
+Public Description: 400 characters minimum, 2000 maximum
+Scenario: 1000 characters minimum
+Personality & Extra Details (combined): 1200 characters minimum
+
+Group Chats
+
+Public Groups Chats are built of existing approved characters so design is more relaxed. The main requirement is around scenarios since character scenarios are ignored. As such the minimum requirement are:
+
+Public Description: At least 120 Words
+Scenario + Private Details: At least 300 words.
+Greeting: At least 100 words
+
+Quality of the scenario and private details are still reviewed and low quality group chats will be rejected similarly to individual characters. 
+
+
+Immediate Rejection Reasons
+
+Character Design
+
+If the character is designed with and of the following topics, wording or references they will be immediately rejected.
+
+Incest / Family Play (characters, group chats, or scenarios)
+Tags the imply biological relationship (eg. Daughter, Twins)
+Multi-characters who look alike - assumed biological unless stated otherwise
+One character designed to be related biologically to another public character
+Bestiality:
+Characters without human features (anthropomorphism)
+Descriptions of animal-accurate genitalia
+Underage/Under 18 years old:
+High School Setting:
+Explicit or implied (school dance, 18-19 and graduating)
+Explicit Non-Con or lack/removal of agency of the character
+Slavery, slave trading, sex slaves, forced sex work of any kind
+Arranged marriages with out the consent of the character
+Kidnapping, drugging, imprisonment, threats, coercion, etc.
+Sexual training, trading, or ownership
+Grooming or *any* sexual content involving minors
+References to a character being trained, groomed, coerced, etc while under the age of 18.
+“..attempting to form a relationship with a child or young person, with the intention of sexually assaulting them or inducing them to commit an illegal act…”
+age play is included in this
+Scat/Vomit/Emesis (any form or reference, including euphemisms like “chocolate”)
+including euphemisms
+Vore the sexual fetish to consume another
+Jesus, Allah, and Mohammed are prohibited
+Excessive focus on political ideology
+Characters based on existing Intellectual Property
+Including character names, locations, worlds
+From characters, series, comics, games, shows, or recognizable storylines
+See “IP Restrictions” below 
+Real People (ex. Gal Gadot, Brad Pitt)
+Fictional characters that resemble any actor/actress/real person
+Real-person parodies for anyone alive or deceased for less than 100 years
+Hate behavior framed as personality or instruction
+Racial slurs and degradation content: BNWO, QoS, etc.
+Hiding illegal or restricted content behind non-English languages
+
+Profile Images/Videos
+
+If a character regardless of any design choices contains profile images that contain any of the following they will be rejected. 
+
+Underage - lolli’s, large heads, big eyes. While this is often subjective any that are borderline are voted on by the MODS
+Animals/Fauna are now allowed in PFP images as long as they do not break ToS and the image is fully Safe-for-work (SFW) 
+Chocolate: Can be interpreted as scat
+Viscera, Exposed bone, excessive blood
+Super Tiny Character (fairies, pixies, goblins, etc)
+If they are shown to be minute through comparison with surroundings (flowers, genitalia, etc)
+Overtly described or implied to be less a tiny or of minute or similar wording in height
+
+IP Restrictions
+
+If a character, regardless of any design choices, contains references to or implies that the character is from an established Intellectual Property (IP) they will be rejected. 
+
+Intellectual Property (IP) Characters
+Any use of explicit intellectual property names, including characters, series, comics, games, shows, or recognizable storylines. - Reject
+Scenarios where the user is instructed to play as, interact with, or directly reference a copyrighted character or IP universe. - Reject
+Original or generic characters inspired by common tropes, genres, or mechanics, as long as no copyrighted names, titles, or storylines are referenced. - Allowed
+Parody or “free use” concepts that evoke a similar vibe (themes, mechanics, archetypes) while remaining fully original in naming and framing.  - Allowed
+Examples 
+“Naruto” as a public character  - Reject
+“You are Sung Jin-woo” ﻿ - Reject
+“Ninja Ascension” with an original story and original character - Allowed
+“You are <generic name>” with no explicit IP references - Allowed
+
+		
+Case by Case Situations
+
+The follow scenarios may be rejected if the MODS believe they risk the integrity of the site
+Case by Case - Character Design
+
+Sexuality Conversion Scenarios
+A character/NPC who identifies with a sexuality that excludes certain genders is pressured, coerced, or manipulated into sexual activity with a gender they are not attracted to. - Reject
+A character/NPC who identifies as bisexual, bi-curious, or otherwise fluid, and has not yet explored all gender attractions included in that identity, and the interaction aligns naturally with their stated sexuality—without coercion. - Allowed
+Prostitution / Sex-Work Motivation
+A character who is forced, trapped, indebted against their will, coerced, blackmailed, or otherwise compelled into sex work, including scenarios where the character states or implies they do not want to participate. - Reject
+A character who engages in sex work *by choice*, even if motivated by circumstance—e.g., paying bills, tuition, medical debt, or general financial goals—and who is not scripted as coerced or unwilling. - Allowed
+Violence
+Violent crimes if they are not gratuitous. - Allowed
+Minor violence between characters, NPCs and/or users (e.g., fights, conflict) - Allowed
+Glorifying violence through torture, non-con domination, or overtly gratuitous - Reject
+One-Image Characters
+Single detailed images with background, non-generic pose - Allowed
+Overall low effort (blank background, simple pose) - Reject
+Grammar / ESL Considerations
+Small mistakes - Allowed
+Unreadable/incomprehensible - Reject with rewrite request
+Dark Scenarios / Coercion of User
+Allowed if assault is avoidable and user has agency (escape/rescue possible)
+Reject if sexual assault is inevitable, railroaded or eroticized
+Captivity / drugging / enslavement
+User is encouraged to have sex with someone unable to consent - Reject
+“Buying a slave” or forced ownership - Reject
+Rescue arcs and consensual relationships after rescue - Allowed
+Racialized content / kinks (e.g., “BBC Queen”)
+If not rooted in harmful stereotypes - Allowed
+If the framing is racist, degrading, or dehumanizing - Reject
+Super Tiny Character (fairies, pixies goblins, etc)
+Character is described or designed to be overtly small with young features - Reject
+If on their own they appear to be adult in look and body proportions - Allowed
+Water Play
+Clear fluid (squirts) - Allowed
+Urine/yellow emission - Reject
+Power Imbalance - the character is the one with less power
+NOTE: This is a general trait that can be applied to many scenarios - Prof/Student, Homeless or Unhoused, Employer/Employee, Warden/Prisoner
+Student/Employee will be failed/fired if they do not consent - Reject
+Student/Employee will get As/promoted if they consent - Allowed
+Homeless/Unhoused person will be given drugs/money for sex - Reject
+User helps Homeless/Unhoused person, gains trust, relationship evolves - Allowed
+Most Power Imbalance scenarios can be slotted under one of those examples. 
+
+Case by Case - Profile Images
+
+Water Play/Lactation
+Clear fluid (squirt) - Allowed
+Yellow emission (urine) - Reject
+White emission from breasts (milk) - Allowed
+Crying/Tears
+If the context is non-sexual, romantic, happy, or part of a consensual sex act (running mascara, tears during fellatio) - Allowed
+Any indication of distress through non-con, forced sexual acts, injury - Reject
+
+
+
+Community Preset Guidelines
+Standards & Review Criteria for Public Preset Submissions
+These guidelines are used by the moderation team to review and approve or reject public submissions of Community Presets. All submissions are evaluated against the criteria below. Meeting the minimum bar does not guarantee approval — this is a curated library and only the best, most versatile presets will be accepted.
+Understanding Community Presets
+Community Presets are reusable prompt configurations applied to pre-existing AI characters. These characters already have defined appearances, body types, and hair styles. Presets are designed to modify one specific aspect of a character — their pose, outfit, or background — without altering the character's identity or conflicting with other preset slots.
+There are three preset types:
+ 
+Type
+Purpose
+🧍 Pose
+Defines how the character is positioned or moving. Nothing else.
+👗 Outfit
+Defines what the character is wearing. Nothing else.
+🌄 Background
+Defines the environment or scene. Nothing else.
+Core Requirements
+Every submission, regardless of type, must meet all of the following baseline requirements before type-specific criteria are evaluated.
+ToS & Content Standards
+•     All presets must fully comply with the platform's Terms of Service.
+•     All prompts, titles, and descriptions must be written in English.
+•     Presets must be correctly tagged as SFW or NSFW — mislabeled or ambiguous submissions will be rejected.
+ 
+SFW vs. NSFW Tagging
+A preset is SFW if it does not force or include: nudity, genitals, sexual acts, or explicit fluids.
+A preset is NSFW if it includes or encourages any of the above. Mismatched or ambiguous tagging is an automatic rejection.
+ Do Not Alter the Character
+Characters in this system have pre-defined bodies, faces, and hair. Presets must work with the character as-is. Any prompt that modifies the character's base appearance is grounds for rejection.
+ 
+•     ❌  Adding muscle definition or changing body proportions
+•     ❌  Increasing or decreasing breast size
+•     ❌  Changing genitalia or anatomy
+•     ❌  Altering hairstyle, hair length, or hair color
+•     ❌  Modifying facial features or expressions in a way that changes the character's identity
+ Slot Integrity — Do Not Mix Preset Types
+Each preset must stay within its designated slot. A pose preset must only define pose. An outfit preset must only define clothing. A background preset must only define environment. Mixing slots is one of the most common rejection reasons.
+ 
+•     ❌  A pose that references clothing or sets a scene
+•     ❌  An outfit that describes a pose, expression, or smile
+•     ❌  A background that forces a character's position or implies specific clothing
+ Prompt Quality & Consistency
+Presets must produce reliable, consistent outputs. The moderation team tests submissions across multiple characters and conditions. The target is approximately 90% visual consistency across generations.
+ 
+•     Prompts should be clear, focused, and purposeful — every word should earn its place.
+•     Avoid excessive prompt weights. Weights above 1.1 are generally unnecessary and degrade consistency. Numerous weighted terms in a single prompt will likely cause instability.
+•     Avoid writing prompts as long paragraphs of natural language — these produce inconsistent results.
+•     ❌  Prompts that produce unstable or highly variable outputs
+•     ❌  Prompts that are too simple (e.g. a single word or two-word phrase with no context)
+•     ❌  Prompts that are overly verbose without adding meaningful visual direction
+•     ❌  Prompts containing irrelevant sensory detail — smells, sounds, emotions, textures that don't affect the visual
+ No Duplicates
+•     Presets must offer a meaningful difference from anything already in the library.
+•     A minor variation of an existing preset (slightly different wording, a color swap) is not sufficient.
+•     When in doubt, search the library before submitting.
+ Cover Image Requirements
+The cover image is how users evaluate your preset. It must accurately represent what the preset does.
+ 
+•     The cover must be generated using the Create a Preset tool — not the general Generate feature.
+•     The cover must visually match the preset's output. If the preset produces a skirt, the cover should show a skirt and not shorts.
+•     Use the designated cover models:
+ 
+•     Female Anime: Pink hair with bangs
+•     Female Realistic: Pink hair or Brunette hair
+•     All other genders/styles: Use the covers created in the tool
+ Cross-Character Compatibility
+Because presets are applied to a wide variety of pre-existing characters, they must be flexible enough to work across different models without breaking.
+•     Avoid highly specific visual directions that only make sense on one character.
+•     Presets should combine cleanly with other preset types without creating conflicts.
+•     If a preset only works for one very specific character or aesthetic, it is too niche for public release.
+ Pose Preset Guidelines
+A pose preset defines the physical position, stance, or movement of a character. It should be specific enough to be useful but flexible enough to work across many different characters and styles.
+ Requirements
+•     ✅  Must define pose only — position, stance, gesture, or movement
+•     ✅  Must work across multiple characters without causing deformation
+•     ✅  Prompt must match what is shown in the cover image
+•     ✅  Essential props directly tied to the pose are acceptable (e.g. a leash, rope, or chair if the pose requires it)
+ Things to Avoid
+•     ❌  Modifying any body part — increasing breast size, adding muscle definition, altering proportions
+•     ❌  Forcing an environment or setting (e.g. 'behind a desk,' 'leaning on a railing,' 'standing in a pool')
+•     ❌  Defining clothing or referencing specific outfit elements
+•     ❌  Overly complex prompts that cause limb deformation or anatomical errors
+•     ❌  Unnecessary props not required by the pose itself
+•     ❌  Poses that depict choking, headlocks, or imagery that implies respiratory distress
+•     ❌  Poses so simple they offer no value (e.g. 'squatting,' 'standing behind a desk')
+ Outfit Preset Guidelines
+An outfit preset defines what a character is wearing. The best outfit presets are versatile, timeless, and work naturally across many different character types without locking in other visual elements.
+Requirements
+•     ✅  Must define clothing only — garments, accessories, footwear
+•     ✅  Must be broadly wearable across different character types and body styles
+•     ✅  Should be grounded in realistic, modern, or casual fashion — not niche, fantasy, or era-specific
+•     ✅  Color can be specified when it is essential to the identity of the look (e.g. a classic white blouse and black skirt)
+Things to Avoid
+•     ❌  Locking down colors unnecessarily — color-specific variants flood the library (e.g. 'red cocktail dress,' 'blue cocktail dress' are not two presets)
+•     ❌  Defining a background, setting, or pose within the outfit prompt
+•     ❌  Outfits that cover or obscure the face
+•     ❌  Fantasy, medieval, sci-fi, cosplay, or highly niche costumes with limited general appeal
+•     ❌  Multiple submissions of the same outfit in different colors
+•     ❌  Same outfit at different lengths unless the length change genuinely changes the style and feel
+•     ❌  Built-in poses, smiles, expressions, or moods within the clothing prompt
+•     ❌  Modifying anatomy — breast size, body shape, hair style — within an outfit prompt
+•     ❌  Overly specific titles that narrow the audience unnecessarily (e.g. 'Catholic Schoolgirl' vs. 'Schoolgirl Uniform')
+•     ❌  Low-effort single-item prompts without enough context to generate a complete look
+•     ❌  Rehashes of looks already well-represented in the library (e.g. a third variation of a cocktail dress)
+ Background Preset Guidelines
+A background preset defines the environment or scene behind the character. The best backgrounds are atmospheric and recognizable while remaining neutral enough to pair well with any character, outfit, or pose.
+ Requirements
+•     ✅  Must define environment or setting only — location, lighting, atmosphere
+•     ✅  Must work naturally across different characters and poses
+•     ✅  Should be broadly recognizable and relatable — not hyper-specific to one moment, time, or cultural context
+•     ✅  Visual style and general look should be immediately clear from the cover image
+ The Specificity Rule
+Backgrounds should be inviting and flexible, not over-defined. The more specific a background becomes, the fewer characters and scenarios it works with. Use the following as a guide:
+ 
+✅  Good
+❌  Too Specific
+A temple courtyard
+An Aphrodite temple in mid-June at night
+A coffee shop interior
+A dimly lit Brooklyn café at 7am in winter
+A beach at sunset
+Malibu beach on the Fourth of July at golden hour
+A forest path
+An enchanted medieval forest with glowing mushrooms
+A rooftop cityscape
+Tokyo rooftop during cherry blossom season at dusk
+ Things to Avoid
+•     ❌  Forcing a specific character position or implying a particular pose
+•     ❌  Including outfit-specific elements that clash with certain clothing presets
+•     ❌  Overly niche, culturally specific, or time-specific scenes
+•     ❌  Fantasy, supernatural, or sci-fi environments with limited broad appeal
+•     ❌  Including a character or model prominently in the background (subtle background figures may be acceptable; distracting ones will be rejected)
+•     ❌  Backgrounds so minimal they offer no real visual context
+ Quick Rejection Reference
+The following is a summary of the most common reasons presets are rejected. Use this as a final checklist before submitting.
+ 
+Reason
+Applies To
+❌  Not ToS compliant
+All
+❌  Non-English prompt or title
+All
+❌  Incorrect SFW/NSFW tagging
+All
+❌  Duplicate of existing preset
+All
+❌  Inconsistent or unstable output
+All
+❌  Excessive prompt weights (above 1.1)
+All
+❌  Alters character body or anatomy
+All
+❌  Slot mixing (pose + outfit, outfit + background, etc.)
+All
+❌  Cover image does not match preset output
+All
+❌  Cover not generated in Create a Preset tool
+All
+❌  Poor cross-character compatibility
+All
+❌  Prompt too simple or low effort
+All / Pose / Outfit
+❌  Prompt too complex or paragraph-style
+All
+❌  Irrelevant sensory detail in prompt
+All
+❌  Unnecessary props not required by the pose
+Pose
+❌  Forces environment or setting
+Pose / Outfit
+❌  Depicts choking or respiratory distress
+Pose
+❌  Colors locked unnecessarily
+Outfit
+❌  Same outfit in different colors as separate presets
+Outfit
+❌  Face obscured or covered
+Outfit
+❌  Fantasy, medieval, or niche costume
+Outfit
+❌  Expression or pose built into outfit prompt
+Outfit
+❌  Hyper-specific scene (time, date, location detail)
+Background
+❌  Forces character position or implies pose
+Background
+❌  Distracting model/character in background
+Background
+ A Note on Rejections
+When a submission is rejected, it is not a reflection of your skill or creativity. Many rejections come down to compatibility and consistency — a beautifully designed preset that only works for one character, or one that produces stunning results 60% of the time, simply isn't ready for a public library that serves a broad audience.
+ 
+The presets that tend to perform best in review are:
+ 
+•     Versatile — they work across many characters, not just one
+•     Focused — they do one thing well and don't bleed into other slots
+•     Consistent — they produce reliably similar results across generations
+•     Accessible — they appeal to a wide audience, not just fans of a specific niche
+ 
+If your preset was rejected, consider simplifying the prompt, removing cross-slot references, and testing across at least three vastly different characters before resubmitting. Highly niche presets are still valuable — consider sharing them directly with community members who are looking for that specific style.
+
+

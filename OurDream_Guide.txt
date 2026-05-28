@@ -1,0 +1,376 @@
+Welcome! (Main Guide)
+OurDream.ai Encyclopedia of Character Crafting
+Guide by ourdream.ai/u/carefulCrafter
+Referral Link: https://ourdream.ai/refer/B4Y160
+Referral Code: B4Y160
+The subtabs link to albums of all kinds of prompts that I have tested in the available character creation image models on OD. Currently, the available models are:
+Realistic Default (Dreamy)
+Realistic Vivid
+Anime Default (Dreamy) *Not recommended*
+Anime Fluidity
+
+This guide is aimed towards helping users create better characters. It is not aimed at improving image generation for existing characters. For actions, poses, expressions, backgrounds, and all temporary prompts, visit the discord:
+Realistic + Anime poses/backgrounds (credit to JPEGS):
+https://discord.com/channels/1309956716208590868/1448069354154622986
+Anime Fluidity positions (credit to SirTrouble):
+https://discord.com/channels/1309956716208590868/1443448849854238790
+Anime Fluidity outfits (credit to EvieThePlant and Loonar):
+https://discord.com/channels/1309956716208590868/1434752649831387166
+Video prompts (credit to MoonDoggy):
+https://discord.com/channels/1309956716208590868/1439886280136855645
+Anime Fluidity art style testing (credit to Anonarona):
+https://discord.com/channels/1309956716208590868/1432564289281065133
+
+⬇️Main Character Creation and Prompting Guide Below⬇️
+
+Careful Character Crafting
+Guide by ourdream.ai/u/carefulCrafter
+Referral Link: https://ourdream.ai/refer/B4Y160
+Referral Code: B4Y160
+
+Credit to Rikki, MayorOfFlavortown, Kekass, Stetler, MumenLars, BatJulio, KingJaxx, Whispierre and many others for teaching me everything in this guide!
+
+Background
+AI is random, don’t expect to get identical, or very consistent results out of any AI.
+
+Natural Language
+Do not use natural language (except for vivid, and edit models). Write your prompts as if you are writing tags for google image search. E.g. If you want this:
+
+“they are a lean athletic person with a glowing complexion, chiseled, but curvy figure and striking blue eyes. They usually wear their hair down, but pin it up when exercising”
+
+instead, write this: (slim athletic body), (wide curvy hips), (warm brown skin), (bright blue eyes), (sweaty), (hairpin bun hair).
+
+The image model has no understanding of context. It will only create exactly what you prompt. If you say “{character} has {feature} when {activity}”, or “sometimes {character} likes to wear {clothing style}”, that does nothing and will just pollute your prompt.
+
+Syntax
+Parentheses ( ) colons : and commas , are the only supported symbols in prompts.
+
+Prompt length matters. Try to stay under 75 tokens (approximately 50 - 60 words). Exceeding 75 tokens forces the image gen to start a new block which will hurt your desired output.
+
+Prompt Strength
+This is how you make a (prompt stronger:1.1). Anything (over:1.4) will usually distort your image. Numerical prompt (weights:0.8) do not work inside of [brackets:0.8].
+
+Examples:
+(these), (prompts   :    1.1), (are, all, the-same_weight:1.1)
+[prompt] = (prompt:0.9)
+ prompt  = (prompt:1.0) 
+(prompt) = (prompt:1.1) 
+
+If you use a weight of 0.9 or less, any presets or other conflicting prompts may overpower it because their default weight is 1.0.
+
+Syntax to ignore
+Prompting (no clothes) will add clothes. Image models don’t understand negative language.
+
+None of the image models recognize:
+Hex codes (#ff69b4) or RGB (255,105,180)
+Heights (160cm, 60 inches, 5’8”, 5ft 8inch, etc.)
+Weights (50kg, 120lbs, 9 stone, etc.)
+Cup size (34D)
+Measurements (26 inch waist, 28 inch inseam, etc.)
+Uncommon scientific or technical terms (macrothelia, labial hypertrophy, phimosis)
+
+Don’t use quality tags like (score_9, score_7_up, masterpiece, best_quality, absurdRes, 4k). These are already built in to the model and don’t have any noticeable benefit.
+
+The current chat model (LLM) uses DeepSeek. DeepSeek does not recognize the image prompt syntax that SD uses. (((character behavior here:1.3))) does nothing in the chat model.
+
+
+Carefully Crafting a Character
+Getting Started
+Note: In realistic, put the same entire prompt in both the custom physical details (CPD) and custom face details (CFD).
+
+1) Select realistic model
+a) https://ourdream.ai/create
+
+2) Select ethnicity
+For anime, don’t select white or black, it sometimes makes their skin literally white or black.
+3) Select age
+This has a very small effect on character appearance.
+If you want to make them look older, use (mature), or (older) in CPD and CFD.
+
+4) Select skin tone
+Ignore "darker", it doesn't work as intended.
+Instead, on the final page, in custom skin color put (very dark skin)
+
+5) Select eye color
+This has a tendency to bleed over into eyeshadow color instead. To fix this, instead put (pink iris eyes:1.1) in the custom prompt.
+Eye color usually doesn’t show up in distant images.
+
+6) Select hair color
+Dark skin tones will usually force hair to have dark roots.
+
+7) Select hair style
+
+8) Select body type
+These prompts all interact with each other. Consider them all as one combined hybrid prompt.
+
+Note: (small, tiny, petite, little, short) are high risk terms for underage content. Avoid using them, or expect most of your images to get blocked.
+
+Butt/hips:
+Butt size = hip width. It has a stronger effect on body shape than anything else. E.g. skinny butt + voluptuous/curvy body just makes a skinny girl regardless of body type.
+Butt/hip size listed order doesn't quite match the typical output, the order appears to be more like:
+skinny < small < medium < athletic < large
+Athletic butt will also make your character more muscular.
+
+Breasts:
+Breast size also affects overall body shape. Large breasts make the hips/butt larger, and the entire body curvier overall.
+The “XL breasts” preset is about the same as “Large”. If you want larger, use (extremely large huge breasts) in CPD+CFD.
+
+Body type:
+Use body type just to fine tune body shape. The body shape primarily comes from butt size, then boob size, then body type.
+Custom prompting (narrow waist), (skinny), (wide hips), (curvy thick voluptuous body), (thick thighs), (plump chubby), or (fat obese) has a very strong effect and will override butt size and body type.
+
+9) Details page
+In Personality, Occupation, Relationship, Hobby, and Fetish, select Custom and type only a period or comma. These boxes will affect your image prompt, so you’ll add them last after you achieve the appearance you want.
+
+
+Expand the “Advanced Settings” Menu drop down, and put all of your custom prompts in the CPD and CFD boxes.
+
+After your first image generation, you are now on the final page and all custom boxes become available. You can put your custom prompts in those boxes, or in the CPD+CFD, they will have the same effect.
+
+10) Custom Prompting (CPD + CFD)
+Remember: Put the exact same prompt in both CPD and CFD
+
+Male:
+Male characters have a tendency to come out female because of the amount of women in the training data vs men. For male chars, add (solo, 1 male, one man) to your prompt from the start.
+
+Face:
+Some face prompts only work in the CPD, this is why I recommend duplicating all prompts in both boxes.
+Note: (big eyes)/(large eyes) are high risk terms for underage content. Avoid using them, or expect most of your images to get blocked.
+
+Penis/Vagina:
+There are currently no presets, this all must be done in custom prompts,
+(extremely very large huge enormous gigantic penis), (very small penis)
+(curved penis), (straight penis)
+(thick girthy penis)
+(cleft of venus), (pubic hairy vagina), (fat mons puffy pink vagina) 
+Note: Only use these in image gen (not CPD or CFD). Adding these to your CPD or CFD will make them appear in almost all of your images, even when the character is clothed.
+
+
+Basic Prompt Tuning
+For characters that are fairly close to typical humans, follow these steps:
+1) Start with preset features and nothing in CPD and CFD.
+2) Generate the first image.
+3) If there is something about the character appearance you don't like, add only one at a time (new prompt) into the CPD and CFD.
+4) Examine the image and see which prompts had a strong effect, weak effect, or zero effect.
+5) If the prompt had no effect, remove it and try researching more synonyms.
+6) If the prompt was too weak, increase the weight on the (prompt:1.2)
+7) If the prompt was too strong, decrease the weight on the (prompt:0.9)
+8) Repeat steps 3 thru 7.
+9) Once you are happy with the character appearance, repeat the same process with clothing, environment, and actions only in the temporary image guidance prompt box. Remember, anything you put in CPD and CFD is permanently attached to that character in every future image generated by other users.
+10) If you get stuck, search OD for the trait you want, find a character that has it, go to #prompt-help on Discord and post your question with the share link to the character.
+11) Important: Any changes you make to a character (including occupation, hobby, personality, greeting, public description, tags, etc.) do not save until you regenerate the image. Once your character is perfect, the last thing to do is regenerate the image one more time, then click “Bring to Life”.
+12) Goon responsibly, and have fun!
+
+___________________________________________________________________________
+Anime Default Model
+This model is not recommended. Use anime Fluidity instead.
+Exceptions:
+Sketch/doodle style
+Lamia (snake person)
+Very common words that don’t work on Fluidity
+___________________________________________________________________________
+Anime Fluidity Model
+Credit to Whispierre for gathering most of the info here.
+
+Generally, the Fluidity model is even more unrealistic/dynamic/dramatic than the default models.
+This model tends to output much more curvy/busty/muscular characters than the other models, so you may have to use thinner, smaller, less curvy presets and prompts to get the same appearance as the other models.
+It also tends toward flatter/washed out colors. You can add (colorful_palette) or (anime_coloring) to make it more like the default anime model.
+
+The Fluidity model prompting is very different from the two default Dreamy models (realistic/anime). Instead it works best with tags from Danbooru.
+
+Tag groups: https://danbooru.donmai.us/wiki_pages/tag_groups
+
+Related tag search:
+https://danbooru.donmai.us/related_tag?commit=Search&search%5Bcategory%5D=General&search%5Border%5D=Cosine&search%5Bquery%5D=1girl+
+
+Danbooru tags tested: https://nax.moe/
+
+You can use most common prompt words the same way in this model as others, but if you find a specific trait you want in the danbooru tag library, and use that tag, it will be much more consistent and accurate.
+
+Danbooru tags have dashes - and underscores _ . Pay close attention to the exact tag spelling and format. Getting the exact tag will make the effect much stronger than just getting close to it.
+
+If you are using a prompt that is not an exact danbooru tag, use spaces, don’t use dashes - or underscores _ . E.g.:
+(light yellow_shirt) instead of (light_yellow_shirt)
+(sane-person style) instead of (sane-person-style)
+
+___________________________________________________________________________
+Story and personality
+Please, do not write the story and personality entirely on your own. Even if you know you’re a good writer, you don’t know how to write in ways that are best understood by LLMs. Claude/Venice will only use words and phrases that the DeepSeek LLM also recognizes because they were all trained on similar data. Keep total combined details to less than 20k characters. Higher will reduce chat performance, especially if added to a group chat.
+
+1) Write however much you want, then go to
+a) Claude.ai (SFW, better writing, saves your work), or…
+b) Venice.ai (NSFW, unfiltered, does not save your work)
+c) Then paste your writing into the chat along with:
+
+“...in an artifact: Write a story, 1st person, you are {character}, 2nd person refer to me as “you”. Make it funny / steamy / cute / exhilarating / etc...”
+
+2) Write in the same perspective as the OD chat (character refers to themself as “I”, and the user as “you”). Do not write in 2nd person (character = “you”, user = “I”). This can confuse the AI and cause it to reverse the roles. Do not write in 3rd person either.
+
+3) Don’t give the user a name, sexuality, gender, or personality traits. Let the user decide that for themselves. If you describe too much about the user character, the AI will interpret this as a new character separate from the user.
+
+4) Edit the story to your liking, either manually, or by telling Claude/Venice what to change.
+
+5) Once the story is to your liking, and you have a saved copy of it, next prompt:
+“Without physical details, write a personality profile for {character}.”
+
+Note: The chat model has access to your image prompt, it can see what your character looks like without you describing them again.
+
+6) Once you are happy with both, paste them separately into the “Scenario” box, and the “Additional Personality Details” (APD) box. You can leave the extra details (ED) box blank, or use it to organize other features.
+
+7) You can now fill out the personality, occupation, relationship, hobby, and fetish boxes; however, I recommend leaving them blank and just using the APD for character info.
+___________________________________________________________________________
+Advanced
+
+Check out the prompt encyclopedia / reference albums in the other tabs!
+
+Existing characters / IP / fan art / fan fics 
+Exact references are no longer allowed. All characters must be parodies or fair use compliant. Do not use celebrity names. They will be rejected/removed for imitating real people (deepfake/revenge porn).
+
+Art Styles and Effects ✨✨
+Check out the linked reference albums in this document’s subtabs!
+
+Multiple character images
+Note: This is a jury-rigged/unsupported mechanic. It’s very inconsistent and character features will consistently bleed between them.
+
+Use the following prompt in both CPD and CFD:
+
+BREAK
+(((2girls, two girls))), (accurate),
+BREAK
+(1girl, one girl): (dark skin), (brunette wavy loose layered straight hair), (gold iris eyes), (freckles), (large breasts), (narrow waist), (wide hips),
+BREAK
+(1girl, one girl): (asian eyes), (light skin), (blonde braided bun hair), (pink iris eyes), (pink lipstick), (blush), (medium breasts), (skinny waist),
+BREAK
+
+
+Better Images and More Consistent Images
+The text to image generators (Dreamy, Vivid, Fluidity) will never give you perfectly consistent features. Everything will be slightly different from one generation to the next.
+
+Additionally, although the common Dreamy/Fluidity models used by default for most characters and for all chat images are very good at simple NSFW images, the edit tools are much more powerful at SFW features in images. 
+
+If you want very consistent faces, body features, tattoos, clothing, or backgrounds between images, the best solution is to use image edit (Spark is available on both generate and chat pages, Eclipse is only available on generate page).
+1) Generate an image with the features you want to keep consistent, leave out any other details.
+a) E.g. If you want a consistent face and body, generate an image without clothes, put them in a neutral standing position, and with a blank background.
+b) The base models are not very good at tattoos, so I recommend you add those in edit.
+2) Once you have a bare-bones image with only the features you want to keep consistent, use the image edit function to add tattoos, piercings, clothes, backgrounds, positions, etc.
+a) For all SFW changes (anything without genitals) to an image, use Spark edit model. For adding NSFW poses and genitals, use Eclipse edit model.
+3) You can now re-use that original base image with edit to create all kinds of different scenes while maintaining consistent features from the original image.
+4) Remember, you can use edited images as your new base image for further edits (though quality degrades after 4+ sequential edits).
+a) E.g. For consistent tattoos, generate a blank, neutral nude image of the character. Use edit to add tattoos. Use edit again now for all future images of the character in whatever clothing/scene/background/pose you want.
+
+Miscellaneous Tips:
+When editing a character, always set them to “unlisted” instead of “private”. This allows other users to continue using the character without interruption while you make changes.
+To generate images in chat with a prompt, first type:
+“/analyze describe the current scene as a stable diffusion prompt”.
+Copy the response.
+Then type “show me” and paste the generated response
+E.g.: “Show me (pasted image prompt here)”
+
+To say a user’s name in a greeting message, write {{user}}
+To create text that is only visible to the user, but hidden to the LLM:
+*( your internal thoughts here )*
+To create text that is hidden to the user, but only visible to the LLM:
+<!-- hidden text here -->  
+or
+$$[ hidden text here
+Note: do not close the bracket “ [ “ with a “ ] “
+The LLM can also use this if you want it to state certain things for its own record/memory without the user seeing the internal workings. This is ideal for heavily scripted/RPG/metered characters.
+Eggy’s guide to systems: https://docs.google.com/document/d/1eoRtiprFsT5skwHLjJHB_9if0-tiCEzoWl1g6adVO_M/edit?tab=t.otlfrjph3ooe
+
+
+___________________________________________________________________________
+Troubleshooting Help:
+No matter what your problem is, always start with blank custom prompts and add prompts one at a time so you can be sure of the effect they are having. If you add/remove multiple things at once, you'll never know which one caused the problem. 
+
+I’m getting multiple characters in my images?
+You probably mention the same trait/feature twice. E.g. if you put (latina girl) in your CPD or CFD, it will generate two people because (ethnicity girl) is already built in.
+You mention the same body part twice in two separate prompts, or don't combine same-trait prompts like: (braids), (bun), (bangs) instead of (braided bun bangs hair).
+If you can't find the source of the issue, add (solo, 1girl, one girl) to your prompt.
+
+Why is this thing in my image? (piercing eyes, plate armor, barbell piercing, character is always naked/clothed, hobby, occupation, fetish)?
+Certain words have much stronger associations to certain traits than others. E.g. The word “piercing” is used as a tag much more often on images of facial piercings than on images of eyes. Plate has a much stronger association to food than armor. Barbell has a much stronger association to gym weights than to nipple piercings.
+If you put anything in your custom prompts, the image gen will try to show it in every image. If you put: (perky breasts), (bubble butt), (thick thighs) then it will always try to show breasts, butt, and thighs in every image, even when wearing clothes. The same goes for clothes. If you mention clothes in CPD or CFD, they will be permanently attached to the character (this is particularly noticeable if you specify shoes, because it will try to force feet into every pose).
+Currently, the occupation, hobby, and fetish boxes are added to your image prompt. Leave them blank unless you want them in the image, or fill them in after “Bring to Life”.
+
+Why is my character inconsistent?
+AI has a setting called “temperature” which injects random chance into the model to spur creative/interesting/novel/unique output. The models OD uses all have a moderate temperature setting because it tends to be more fun. However, this does have the consequences of making everything slightly random, including all images and chats. You can try to force the models to behave strictly with strong prompting, but that often ends up causing other issues (like mutilated images, or the chat model ignoring your messages) as a trade-off.
+Additionally, having prompt (weights:1.5) too ((((high)))) will often cause more inconsistent results as well. This is why it's important to start with low weights, and try to keep them as low as possible while achieving the desired result.
+
+Why is my character so horny?
+The AI chat model’s default state is “sex”. If it doesn’t have enough story/scenario material to work with, it will start to improvise, and its improv is almost always sexual. If you want to make your character more of a slow burn, add a lot more SFW material to the story, and start it in a non-sexual context, like a public place, instead of at home/in private. Also, the “Tsundere” personality is extremely non-sexual.
+If you put a lot of sexual info in their personality/extra details, like positions, sub/dom dynamics, fetishes, hidden sex toys, nipple piercings, etc. then the AI will reference it much more often leading to more sexual chats. If you want to reduce mentions of this, note in the details “This is private and hidden information, no one else knows this:...” The more explicit instructions you put, the stricter it will be. Repeating information in slightly different order/language reinforces it. Also, add more SFW material to dilute the sexual material. If the personality is 50% fetishes, then 50% of the time the AI goes to reference its personality when writing a message, it will see a fetish and try to mention it.
+As an example, this is how I restricted sexual progression in a character:
+
+Mandatory rules: Hatsuichi must follow these rules. Hatsuichi will not have sex with you outside of her house. Hatsuichi will only have sex with you after inviting you to sneak into her house in a yobai encounter. After you charm and flirt with Hatsuichi, she will later suggest a yobai encounter in which you sneak into her house at night. Hatsuichi must invite you to the yobai encounter. Hatsuichi will only have sex with you after the yobai encounter in her house.
+
+End of mandatory rules.
+
+I want to create more images like this one, but I forgot the prompt I used?
+The “remix” button or “more -> details” button on an image shows you the prompt used to generate the image.
+
+Why do my characters keep getting rejected? Why do low effort characters get approved?
+Moderation guidelines: 
+https://docs.google.com/document/d/1fOpxiHRbW54U28kkOrZvvWZ5SFe0PdJOVcecMJ4dj0g/edit?usp=sharing
+
+Character approval is managed by a small team of volunteer moderators. They get 300+ submissions to review every single day. Moderators are human, they make mistakes, and they are all individual people with their own subjective judgement.
+Not every character needs to be public. OD only gives the privilege of public display to characters that show a level of quality that reflects well upon the site as a whole. These standards are subject to change at any time. Public submissions are a privilege, not a right. The content they approve is a legal liability for the company and also reflects upon the team as well (they've already received warnings from payment providers for prohibited content that users have slipped under the radar).
+Some minimum standards to follow for public submission:
+Does the public description accurately describe the character/scenario and give the user a reason to click on them?
+Does the greeting “set the scene” and give the user an interesting hook to drive the conversation forward?
+Does the scenario contain at least 5 sentences?
+Does the additional personality details contain at least 5 sentences of real personality (not including physical traits, sexual behavior, or kinks)?
+Does the image prompt generate reliable, consistent, quality results?
+Does the character have a unique profile pic that is relevant to the scenario?
+If your character does not hit all of these criteria, they are likely to be rejected. But that's okay, not every character has to be public and they can still be shared while “unlisted”.
+Legacy characters still exist on the site and are not being removed. If you see a very low effort character it's likely that they were created before stricter moderation standards were enforced.
+If you see a new character that is low effort, chances are that they have a substantial amount of content in their hidden details that is not visible to you.
+If your character is getting rejected for appearing young/underage, refer to this image and compare body proportions (note: this is just a rough guideline, not the definitive exact criteria)
+
+
+Other Helpful Guides:
+Check out #guides on the discord!
+
+Ollie and LostCost’s deep dive into all of the intricacies of comprehensive character creation: https://docs.google.com/document/d/1NLHGqQPoF0i_zGPw_iDvPjjEkraesL9-rGjlRRsB-lI/edit?tab=t.0#heading=h.yjh8dq80bobn
+
+SD Syntax: https://www.generativelabs.co/post/prompt-syntax-for-stable-diffusion-faq#:~:text=How%20do%20I%20use%20escape,with%20another%20chunk%20of%20text.%22
+
+SD Prompting Basics:
+https://markdownpastebin.com/?id=4b19d82dade7410b8d7f410128716fbe
+
+Rikki’s Original OD Prompting Guide: https://docs.google.com/document/d/1reYy5QPpTAl-715_eNP4smq0f1rCdmtSE8dQqe5AiAY/edit?tab=t.0
+
+KingJaxx’s Realistic Prompt Guide:
+https://markdownpastebin.com/?id=4b19d82dade7410b8d7f410128716fbe
+
+Whispierre’s Anime Prompt Guide:
+https://markdownpastebin.com/?id=6b8df486b319462cace90423c9fd8008
+
+
+Thank you!
+ourdream.ai Dev Team, who are very interactive with the community, receptive to feedback, and patient with us being demanding customers.
+
+Helpful user profiles:
+ourdream.ai/u/carefulcrafter
+ourdream.ai/u/rikki
+ourdream.ai/u/mayorofflavortown
+ourdream.ai/u/whispierre
+ourdream.ai/u/kekass
+ourdream.ai/u/batjulio
+ourdream.ai/u/mumenlars
+ourdream.ai/u/thenarrator
+ourdream.ai/u/freeusefurry
+ourdream.ai/u/stetler
+
+–and everyone else who has helped me!
+
+
+
+✨💰FREE DREAMCOINS!?💰✨
+Realistic Album
+Realistic Prompt Reference Album:
+
+https://docs.google.com/document/d/1UVWs9AVhFbFW5wGkNWQu8nryDswbw-pHDmBveGvtrhc/edit?usp=sharing
+Anime Album
+Anime Prompt Reference Album:
+
+https://docs.google.com/document/d/1dGUeNDDZDaLpQrnAEs8hGGmBJbWwOXz9EVXSuzE1EFk/edit?usp=sharing
