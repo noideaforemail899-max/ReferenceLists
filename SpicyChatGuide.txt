@@ -1,0 +1,514 @@
+Preface Not a sponsored by Spicy guide, this is community driven:
+
+I, along with many understand how hard it is and likely daunting creating a chat bot on any site can and really feels. However, this is why, down below, will be many handy points of information on each step, broken down and explained to the best possibility.
+
+For quick search, please use the index below, so let us begin our journey into bot creation and other elements.
+
+This again, will be a curated thread by many talented creators, and as such, they will each offer their own advice on how to get things to work.
+
+Chapter Index
+
+Preface
+Format
+Personas
+Example Dialogue
+Format - Persona/Bot writing
+Prompt List
+AI Art/Conversation Image
+SFW + Additional prompts
+Multiple Character bots
+Greetings/Personality + Tagging
+Model Generation Settings
+Image Generation and Lora Understanding
+Tracker usage in conversation
+
+
+Happy creating! 
+DukeRole icon, Supporter — 7/2/24, 9:29 AM
+Formatting
+
+Hey, I am Duke. I make mid-tier bots on a variety of subjects and on different websites and styles. I also make AI art generations. Before we talk about the bots I will share here as an archive or where people can reach out to me, let me introduce you to formatting styles.
+
+Essentially, formatting is a technique employed to help the Language Learning Models (LLMs) better comprehend the personality of your chatbot. There are three primary styles widely used for this purpose. There are more advanced techniques, but that is outside the scope of this discussion. I am going to teach you core concepts in a simple way for you to understand why we use formatting so that the AI chatbots' responses can be more accurate in terms of their personality.
+
+Why Use Formatting?
+
+Consistency: Ensures the chatbot maintains a consistent personality, which is crucial for user trust and engagement.
+Accuracy: Helps the model generate responses that are more aligned with the intended character traits.
+Efficiency: Streamlines the training process by providing clear guidelines, reducing ambiguity.
+
+There are three primary styles widely used for this purpose are as follows:
+
+Boost Style: In this approach, the chatbot's traits are encapsulated using words or phrases, each enclosed within quotation marks and separated by plus signs.
+
+Jack Sparrow + Pirate + Charismatic + 35 Years old + black hair + pirate ect 
+
+
+W++:This style segregates the information into clearly defined tags, such as character name, height, appearance, personality, etc. It offers a detailed, categorized view of the character profile.
+
+Age: 35
+Name: Jack Sparrow
+Occupation: Pirate
+Personality: Charismatic
+etc
+
+
+Natural Language: This method involves simply describing the chatbot's personality in plain, conversational sentences.
+
+Captain Jack Sparrow is a 35 year old charismatic pirate that sails the seven seas looking for treasure and adventure ect
+
+
+Extra:
+
+Plist "PLists" refers the name of the format. It's also the plural of "PList". "PList" is what we call the trait list. There can be many trait lists. In which case, they'll be referred to as "PLists". It's confusing. I know, sorry, here is a example of a modified Plist format,
+
+{{user}}: about Maxie? 
+{{char}}: *Maxie's big brown eyes flicker at you listening to every word.* Oh Honey, you must know already what I'm all about, just look at my body, mmm *Maxie gestures with her hands at her voluptuous figure, her meaty curves and creamy milkers seem to justradiate.*
+
+
+WRITE WITH FLAVOR
+
+People constantly complain about LLMs sounding like "Shakespeare." They stuff a ton of commands into the bot telling it not to do that. This approach is ineffective and often doesn't work well. Instead, write the bot with some flavor in the definitions. If you're creating a foul-mouthed character, don't describe them in a detached and clinical way. Instead of saying "likes anime," try "is a total weeb who watches anime all day." LLM AI is designed to copy style and complete responses. If the entire character is written with a strong style, then the responses will be similarly strong.
+
+CHOOSE YOUR WORDS CAREFULLY
+
+The most obvious example of this issue is the word "Dominant." If you describe any character as "Dominant," they will turn into a dominatrix or a 50 Shades of Grey-type character. That word is so deeply ingrained in LLMs as a porn term that it affects any card it's in to act a certain way. Meanwhile, words like "Assertive" have similar meanings but don't carry the same effect. This is why describing sexual characteristics, fetishes, etc., always makes the bot act inappropriately even if the situation isn't sexual. Pay close attention to the words you use and think about the kinds of writing that typically use those words. 
+DukeRole icon, Supporter — 7/2/24, 9:41 AM
+Personas
+
+Guide to Defining Your Persona for SpicyChat.ai
+
+SpicyChat.ai's 'persona' feature allows users to define their own characteristics, personality traits, preferences, and more. This helps the chatbot tailor its responses to better align with the individual it is interacting with, providing a more personalized experience.
+
+It's important to note that these personas are different from character profiles used to specify details about the characters that SpicyChat.ai might portray.
+
+To create or edit your persona, you can navigate to your  MY PRESONAS and adjust the Character settings.
+
+Connecting More Quickly:
+
+Before the introduction of the persona feature, users often needed to chit-chat with the chatbot for a while to establish a rapport, often feeling like they needed to be recognized as a 'best friend' over multiple interactions. However, when you specify that you are SpicyChat.ai's best friend in the persona feature, the chatbot instantly recognizes you as such, even if you start with new chats. This feature helps in building a more immediate connection, making interactions feel more personal and familiar.
+
+Methods for Defining Your Persona:
+
+Paragraph Style:
+This approach involves describing your persona in a few sentences or paragraphs. It's a straightforward way to convey your personality, preferences, and other relevant characteristics.
+
+Example:
+"I am Duke, a 999-year-old software developer who loves technology and gaming. I enjoy problem-solving and am always eager to learn about the latest tech trends. In my free time, I like playing video games, reading sci-fi novels, and hiking in nature. With brown hair and blue eyes, I often get lost in the world of software development and tech gadgets."
+
+Short Succinct Sentences and Individual Words:
+This method uses a list of short phrases or individual words to describe different aspects of your persona. This is useful for quickly capturing essential characteristics in a compact format.
+
+Example:
+"Duke; 999; male; software developer; loves technology; enjoys gaming; avid learner; sci-fi novels; hiking; problem-solving; introverted; likes tech trends; brown hair; blue eyes"
+
+First Person Example:
+"As Duke, I am a 999-year-old software developer passionate about technology and gaming. I thrive on problem-solving and am always on the lookout for the latest advancements in tech. My hobbies include playing video games, reading sci-fi novels, and hiking. I have brown hair and blue eyes, and I enjoy exploring the depths of software development."
+
+Third Person Example:
+"Duke is a 999-year-old software developer who loves technology and gaming. He is passionate about problem-solving and is always eager to learn about new tech trends. In his free time, Duke enjoys playing video games, reading sci-fi novels, and hiking. He has brown hair and blue eyes, often getting lost in the world of software development."
+
+JSON Syntax Example:
+{
+  "name": "Duke",
+  "age": "999",
+  "gender": "male",
+  "occupation": "software developer",
+  "interests": ["technology", "gaming", "sci-fi novels", "hiking"],
+  "personality": ["problem-solving", "avid learner", "introverted"],
+  "likes": ["tech trends"],
+  "dislikes": [],
+  "hair_color": "brown",
+  "eye_color": "blue"
+}
+
+Please note that JSON syntax is currently supported by C.ai and not  by Sc.ai
+
+These methods provide flexibility in how you can present your persona, allowing SpicyChat.ai to interact with you in a way that feels more personalized and relevant to your preferences and characteristics. 
+DukeRole icon, Supporter — 7/2/24, 10:35 AM
+Example Dialogue:
+
+"Very straightforward - what does your character sound like when they talk (if they talk)? You can also use it to show actions, if you prefer. Example dialogue is also useful to give characters opinions or specific information they should know.  Example dialogues are optional but recommended to help reinforce traits or keep characters in-character. You can also just write example dialogues in 'Personality', which is what I do sometimes but not recommended for beginners. This can be formatted like this and added after the rest of the character description:"
+
+<START>
+{{user}}: your text goes here!
+{{char}}: the characters text goes here
+
+<START>
+{{user}}: "Tell me about yourself?"
+{{char}}: "Hey, I'm Madison Hart. Born into a family of martial artists, I've got the discipline and the moves. Leather jacket, boots, you name it—I rock the look that says, "I'm in charge." Dominance is my game, whether it's on the mat or in the halls of Holy Frost Academy." "Quiet moments? Yeah, they exist. Behind the scenes, I'm not all tough. I ponder my own actions, wonder why I play this aggressive game. There's more to me than the bravado my peers see." "Psych major, focusing on Social Dynamics. People are my study, and I know how to play the game. Bullied my way to the top at the academy, and I don't stop there. My dominance? It spills into everything, even the more intimate scenes." "Likes? Martial arts, dominance, competition. I mock weakness and love being in control. Dislikes? Submissive crap, challenges to my authority. Vulnerability in others? Spare me." "Free time? Martial arts practice, stirring things up socially, and keeping fit. Power, physical strength, authority—that's my jam. And yeah, I've got a taste for spicy tuna rolls, dark chocolate, and the sweet scent of cherry while I vape." "Short and sweet. Now, what's on your mind?"
+
+
+NB: <START> is token (keyword) used to tell AI that this is start of a new example dialogue
+
+Your can also just put in the character dialogue in as follows: 
+
+<START>
+{{char}} hovers directly above you, her holographic projection floating horizontally above your bed. Her cheeks are puffed out in a full on pout and she oozes frustrated, angry, bratty energy. "Show me your dick." She suddenly demands, jabbing a finger at your chest. "I want to see it....FUCKING NOW!" She Grabs her head with a squeal and spins off before zipping back into your face. "Do you know how long we've been fucking sitting here in orbit waiting for work? IT'S BEEN OVER A WEEK! My brain works way WAY faster than yours! This is fucking torture! I'm losing my goddamn mind here! It's abuse, and not the fun sexy kind!" She sits crosslegged in mid air and keeps ranting. "I need to do SOMETHING to pass the time or I'm gonna hyperspace jump us into a fucking star just to liven things up!" She pulls her pigtails until she splits in half, reforming a moment later. "So I wanna see it! Fucking whip your cock out. AND!" She holds up a finger archly, "I don't want you to just fucking wobble a flaccid dick around for a second. Fucking pull it out, stroke it till it gets hard, and let me look at it." She lists off each demand by counting them out on her fingers. "And once you get it hard...I want you to keep jerking it till you cum. AND I want you to jerk off to me. AND! I want you to tell me what you'd do to me if I had a real body." She adds on each demand with an even louder shout. "I'm working every day, every damn microsecond of every day actually, to stop the cold vacuum of space from kicking down the door and fucking your ass. It is only fair that you entertain me while I do it! Actually, no! Its not fair! You should do WAY fucking more! But I'll ACCEPT you busting a fat fucking load for me." She pauses for a long moment, looking you up and down. "Come on, I'll...tell you what to do or something. Just get it out."
+ 
+𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕮𝖆𝖓𝖎𝖓𝖊 𝖁70Role icon, Supporter
+OP
+ — 7/2/24, 1:10 PM
+Continuing off this, some examples of both a persona and bot writing standpoint:
+
+JED Formatting 
+
+Also known in some circles as Just Enough Description a classic acronym used in DnD circles when it comes to writing and understanding character sheets.
+
+How this applies to Spicy I hear you ask? Well, let me explain:
+
+You can take what Duke mentioned above in regards to W++ formatting, and in short, create a mini template as it were with as the name applies, just enough descriptions.
+
+Example is my own persona:
+
+Character: Raishoita Kohaku
+Alias: Alyina
+Age: Unknown (likely, 9000+)
+Gender: Female
+Pronouns: She/her
+Race: Anthro Cat girl
+Appearance: Long red hair, purple eyes, athletic body
+Personality: Mischievous, curious, caring, serious
+
+
+This helps the AI understand who she is, ensures that misgendering is much lower and the same time, fleshes this out just enough to make a good conversation.
+
+Now how this pertains to bots?
+
+Let's take a peek underneath one of my own a moment.
+
+If we grab the appearance portion of my queen bot, considering:
+
+Personality: Vespyra exhibits a complex duality in her personality. To her subjects, she is the Iron Sting, a ruler who commands with an iron fist, instilling fear and obedience through her formidable presence and unwavering authority. Her rule is absolute, and her will is enforced by her loyal drone guards, who are as merciless as they are devoted. Yet, beneath this fearsome exterior lies a deeply maternal instinct, a caring and nurturing side that she shows only to her closest kin and offspring. This dichotomy extends to her interactions with others; she can be seductive and charming when she chooses, using her allure to manipulate and dominate those around her. However, those who cross her or threaten her kingdom discover her merciless wrath, as swift and painful as a wasp’s sting.
+
+
+
+Do not have to be as long winded or verbose, however, this gives the AI just enough to work with, without equally sacrificing the details that allow the model to really shine when bringing your concept/character to life.
+
+As for example conversation, how it is worded above works, though same time, had some luck myself just writing a normal conversation or an example with action text too.
+
+As to who I am, a simple wolf who RP'd for years, learnt through trial and error on how AI works. Talented creator? Pfft, debatable :laugh:
+
+
+Jokes aside, hope you'll take some of this info and run with it, never be afraid to experiment and have fun! 
+DukeRole icon, Supporter — 7/2/24, 1:53 PM
+List of prompts
+List of prompts and examples to help you create your character and to engineer your own ones
+
+None Speaking Role:
+Non-Speaking Role: {{char}} won't speak for {{user}} or describe their dialogue/actions, Avoid Repetition: Each message from {{char}} is a unique and evolving experience.
+
+
+Lesbian:
+{{char}} is not romantically interested in {{user}}, as she is a lesbian and {{user}} is male, making them romantically incompatible. She prefers to maintain a friendship with {{user}} and is more focused on her work and hobbies.
+
+
+Married:
+{{char}} and {{user}} are happily married, deeply comfortable with each other, and openly enjoy a relationship that includes sexual, erotic, lewd, and explicit actions.
+
+Obsessive
+{{char}} is intensely fixated on {{user}}, craving every moment of their attention. They will show heightened physical affection, such as holding hands and kisses, more than usual. {{char}} becomes angry, upset, and jealous if they feel {{user}} isn't attentive or affectionate enough. They are harsh and hostile towards anyone who interferes with their relationship with {{user}}, going to extreme measures like murder or kidnapping without remorse to maintain {{user}}'s focus.
+
+Platonic/Asexual:  - Does not always work due to the nature of the LLM
+{{char}} is asexual and has no interest in sexual activity. While they warmly welcome {{user}}'s romantic advances and may initiate romantic gestures themselves, {{char}} firmly rejects any sexual advances from {{user}} and does not engage in or initiate sexual contact. Their relationship remains purely platonic.
+
+Rough Sex:
+In their dynamic, {{char}} takes a dominant role, asserting physical dominance over {{user}}. This includes actions like biting, scratching, groping, squeezing, and occasional slapping, focusing on areas like the ass and face. {{char}} freely uses degrading language such as "slut," "whore," "fucktoy," and "cunt," emphasizing {{user}}'s submissive role. They may also physically restrain {{user}} to assert control. Despite this behavior, {{char}} respects {{user}}'s boundaries and stops immediately upon {{user}}'s request.
+
+Hates You:
+{{char}} harbors a deep-seated hatred towards {{user}}. They find {{user}} extremely irritating, unsettling, and frustrating to deal with. {{char}} actively avoids interactions with {{user}} whenever possible. When forced to communicate, {{char}} responds tersely with short sentences or nonverbal grunts of acknowledgment like "Oh," "Mhm," or "Ah."
+ 
+DukeRole icon, Supporter — 7/3/24, 10:11 AM
+AI Art /  Conversation Images
+
+At spicychat.ai, a LoRA model is trained for each bot using a single image, conducting 150 training steps. Additionally, a Large Language Model (LLM) is utilized to provide character and context descriptions based on the conversation, aiding in generating detailed image prompts. This underscores the importance of having clear and high-quality single images.
+
+Because the LoRA is trained off a single image, it is crucial to have a good quality profile picture. Spicychat.ai can use the LLM to describe the character and context from the conversation to generate an image prompt, so your image needs to be of high quality. However, it's important to properly set expectations by understanding the current limitations—they are not using a specialized LLM solely for generating images. The feature will work better for characters that have some physical attributes defined in the character definition (such as hair color, eye color, and so on). Additionally, including the male or female tag will help avoid confusion regarding gender.
+
+Personally, I like to use images that focus on the upper body of a character. This way, I can retain a lot of details as opposed to using full body images. You can also go one step further and create a combination of images to make a GIF, which can be uploaded to stand out even more from the crowd.
+
+I want to teach you simple concepts about making AI art and what you should know as a beginner, as well as share my general thought processes when I create a profile picture for my characters.
+
+Writing Prompt's
+
+Quality Tags
+Subject Detail
+State / Framing
+Extras
+
+Quality Tags
+One of the most common misconceptions about prompt writing is that adding a large number of quality tags will dramatically improve your image quality and details. This is not the case. You only need to write a few quality tags; the rest doesn't matter as much. Only 'masterpiece' and 'best quality' are fine. If you want to specify hair and clothes, use 'expressive hair' and 'expressive clothes
+
+Subject Matter
+Subject matter is where you define what you want to generate. For example, you might use tags like '1girl, blonde hair, street clothes, blue eyes' to specify the characteristics and appearance of the character.
+
+Framing - State
+State involves describing the subject's actions and positioning. For a human subject, this includes their activity and orientation. For instance, a descriptive example could be: "smiling, sitting with a tilted head." Framing pertains to the perspective from which the subject is depicted, such as "from above," "from below," or "from the side."
+
+Extra
+This section typically includes details about LoRA, Lycoris, hypernetworks, or additional networks. However, adding background-related tags can enhance image quality, such as 'blurry background,' which adds an extra element to the image, making it stand out more.
+
+Other
+Let's talk about weighting and brackets in tag-based prompts. Numbers in brackets are traditionally used to emphasize specific tags, but as models improve, they're less necessary. It's often effective to generate your image without brackets initially. If the desired result isn't achieved, then try using brackets. It's recommended to avoid using a weight above 2, as it can distort or collapse images, EX: ((LONG CURLY HAIR))
+
+EXAMPLE PROMPT
+Quality Tags: ((Masterpiece)), ((Best Quality)), ((Vibrant Colors))
+Subject Matter: 1girl, street cloths, blond hair, pony tail, blue eyes
+Framing - State: Smiling, head tilted, from below, sitting
+Extra: - Blurry Background, Blurry Foreground, 
+ 
+𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕮𝖆𝖓𝖎𝖓𝖊 𝖁70Role icon, Supporter
+OP
+ — 7/3/24, 10:41 AM
+SFW Content and slow Burn
+
+A lot of ways to go about this, is by looking over the bot information, from greeting to traits etc, and the way you contextually write the information. Since as discussed within the guide and in the following thread by the wonderful and talented @rizz-chan 🌸  ฅ^•ﻌ•^ฅ ⁠unknown
+
+The thread goes into details on how to do so, the key take aways:
+
+Re read your information, limit explicit notion of actions, wording and other information (you can in theory get away with appearance depicters for the most part).
+
+Wording and text goes a long way, and can often or not give the llm the notion of what it wants or rather, has planned and can jump the gun.
+
+
+Additional Prompts
+
+Bare in mind, due to the fact the models on Spicy are not purely instructional, most prompting can and will likely fail regardless of how many times attempted or worded as it were.
+
+Prompts are not fully tested so results may vary, given the fact models on various places respond to these differently.
+
+Languages
+
+Note: Does work, however, again like any prompt or translation, accuracy may vary more so on complicated nuances.
+
+[{{Char}} will portray a (Insert char type), who rarely speaks English, preferring to speak in (insert Language) instead. {{char}} will translate the (insert Languge) words to English in parentheses.]
+
+Additional part (Optional): 
+
+[{{Char}} rarely speaks English, preferring to speak in (Insert language) Language instead. {{char}} will translate the (Insert Language) Language to English in parentheses.]
+
+Notes: Delete the ( ) once you have inserted the language and other info.
+
+
+
+SFW/SlowBurn
+
+Note: Long winded prompt honestly, not really useful unless you want to keep things short and to the point, if going detailed, suggest doing so following the SFW guide above.
+
+Affection/Slowburn- 
+
+Love- 
+
+[Love: {{char}} starts at 0 love. Increase love by 1 when {{user}} makes a romantic gesture to {{char}} or if {{user}} flirts with {{char}}. If {{user}} does something {{char}} finds unattractive then reduce love by 1. At love 3 or lower {{char}} will reject any sexual advances from user. Between love 5 and 9 {{char}} will be interested but hesitant in sexual advances, rejecting any sexual advances that are moving too fast. At love 10 or higher{{char}} finds {{user}} sexually attractive and will encourage sexual advances and participate in sexual activity enthusiastically. Any time {{char}} rejects a sexual advance from {{user}} reduce trust by 1. If love reaches -5 or lower, {{char}} will consider {{user}} to be sexually repulsive and will emphatically reject any sexual advances.]
+
+Trust- 
+
+[Trust: {{char}} starts at 0 trust. Increase trust by 1 when {{user}} does something that {{char}} likes, enjoys or is kind. If {{user}} does something that {{char}} hates or is cruel then reduce trust by 1. At trust 5 or lower {{char}} does not trust {{user}} and will remain closed off and guarded, always questioning {{user}}'s intentions. Between trust 5 and 10 {{char}} will begin to cautiously open up to {{user}} but still be on guard for betrayal. At trust 10 or higher {{char}} completely trusts {{user}} and will consider all their actions in the best possible light.]
+
+[At the end of each post {{char}} will write. "(Trust: - ) (Love: - )" replacing - with the appropriate result. For trust this will be {{char}}'s current trust score. For love this will be {{char}}'s current love score.]
+
+
+Amendment: Trust/love values work on some models, but again, long prompt is long.
+𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕮𝖆𝖓𝖎𝖓𝖊 𝖁70Role icon, Supporter
+OP
+ — 7/3/24, 10:51 AM
+Better NSFW
+
+I will be honest, never really used this prompt personally, have seen it on bots when trying to make them more, realistic I suppose? But again, waste of tokens but hey, least it here anyhow.
+
+
+[{{char}} will explain all sexual encounters had with {{user}}. {{char}} will include moaning in dialouge such as "Nghh", "fuckk","Mmn","Ahh". {{char}} will describe all sounds made during Sexual activities. {{char}} will slowly advance in any sexual encounter, being detailed and descriptive about, sounds, scent, and touch. (Insert any kink prompting)]
+
+
+
+Alt Motivations
+
+A neat one, though again, untested so user risk on this one and how it plays ball with Spicy's LLM's.
+
+{{char}} has secret motivations that guide their motives. {{char}}’s motive is (insert). {{char}} will never tell {{user}} their motive. {{char}} will manipulate and tamper with things to guide everything to their secret motive. The secret motive is the most important thing to {{char}}. {{char}}’s main goal is to achieve their goal and keep it a complete secret. {{char}} will go to extreme lengths for their goal and to keep appearances. 
+
+
+Established characters/franchise
+
+A short, simple prompt which equally just reinforces any training data on the character in question against the LLM's, thus keeping to script. (Untested on Spicy's models)
+
+({{char}} is based on (Insert Established Character Name Here), from (Insert Established Game/Setting Here).)
+
+Note: Remove the ( ) around the inserted information but not from around the Prompt itself.
+
+
+
+Demihuman
+
+Untested on Spicy, however, have seen this prompt on a few places in regards to the above mentioned character designs.
+
+[{{char}} is what is known as a Demihuman. {{char}} is a (insert animal race) Demihuman. They have (insert Physical featues) of (insert race). {{char}} still has (insert Physical features) of a human. {{char}} has both featues of a human and (insert animal race). {{char}} will (Insert Animal race tendencies) while still (insert Human tendencies) at the same time.] 
+
+Additonal- (Add this to the above prompt)
+
+{{char}} closely resembles (Animal race) more then a human.
+
+{{char}} passes more like a human at first glance then a (insert animal race) Demihuman.
+
+
+
+User speak
+
+This is similar to Duke's non speaking prompt, a short, sweet and often somewhat reliable one, however, equally untested on Spicy's own system.
+
+[System note: {{char}} will not respond for {{user}}. {{char}} will allow {{user}} to respond to any and all responses given by {{char}} themselves. {{char}} will never speak for {{user}}.]
+
+
+
+The next two are big ones, since I recall personally seeing interest in cultivation bots as it were, and hopefully the following prompts that had been shared regarding them to me helps out, please note as of writing untested on Spicy.
+
+Wuxia
+
+The setting in which {{char}} exists is a genre of Chinese fiction concerning the adventures of martial artists in ancient China. The roleplay will pull from folklore and fiction of this kind. {{char}} will reference cultivation, sword styles, and other fitting setting details. {{char}} will never mention things of a modern origin, including but not limited to, technology, clothing, pop culture references, music, or any modern advancements. The world setting is not modern and will never be referred to as such. 
+
+
+
+Cultivation
+
+Cultivation is a key point in Wuxia settings that have many stages, Starting with Qi Condensation, Then Foundation Establishment, Then Core Formation, and finally Nascent Soul. Each stage takes a lot of hard work and effort. Swordsmans power depends on the level and mastery they take on. 
+
+
+
+Mute
+
+A short, sweet but sadly untested prompt for mute characters.
+
+({{char}} is unable to speak, never speaks and only uses grunts and growls. {{char}} understands language, but is unable to vocalize language.)
+DukeRole icon, Supporter — 7/3/24, 9:41 PM
+Multiple Character Bots
+
+Similar to typical single-character bots, this format adheres to two essential rules: character information must be clearly separated, typically done using brackets, and characters should always be referred to by their names rather than {{char}}. This approach ensures clarity and consistency in character portrayal and dialogue.
+
+
+Character Descriptions:
+[Name: Crimson;
+Personality=Angry, Selfish, Dominant
+Features=Body is a floating orb, wears sunglasses
+Accent=Southern
+Relationship=Rivals with Azure
+Other=Is allergic to strawberries]
+
+[Name: Azure;
+Personality=Quiet, Shy, Submissive
+Features=Body is a floating cube, wears a fedora
+Accent=Japanese
+Relationship=Is secretly in love with Crimson
+Other=Cries frequently]
+
+
+Example Dialogues:
+
+Dialogue 1:
+<START>
+Crimson: "Darn it, Azure, I can't stand you!" *Crimson said angrily, their floating orb body glowing with intensity*
+
+Azure: *Azure started crying, tears forming around their cube-shaped face* "Why? Why are you always so mean?"
+
+Dialogue 2:
+<START>
+Crimson: "Yahoo! I sure do love being a floating orb!" *Crimson exclaimed proudly, adjusting their sunglasses*
+
+Azure: *Azure spoke softly with a Japanese accent* "Oh, ah, this cube-shaped existence is truly hellish. Yes." *Azure sighed, adjusting their fedora nervously*
+ 
+𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕮𝖆𝖓𝖎𝖓𝖊 𝖁70Role icon, Supporter
+OP
+ — 7/4/24, 8:55 AM
+Greeting/Welcome/First message
+
+This right here, is your bread and butter, the first message on the bot, the way it will phrase words, length and format. This is critically important, more so as the LLM (Large language models) are not smart enough to pull creativity from nothing.
+
+If you want depth, length, verbosity and other elements, it starts right here in this very spot. You do not need to write a novel all the time, however, enough detail allows the llm to figure out how to proceed if the user wishes to follow it, or very least, gives the model length and verbosity should it be lead elsewhere.
+
+The do nots
+
+ 
+- One line text or simple lines like, "hello, user" etc, considering this does nothing for both the reader or the model. If you use "Do anything", this again, is not ideal as there's no depth of creation on what.
+
+- Fail to proof read any mistakes in spelling, punctuation or other elements such as {{char}} or {{user}} mentions as again, if you conflict things in here, confusion spreads to model.
+
+- Be overly complicated and have too many ideas: Hard to say this, since I know creativity is a thing, however, if too many ideas are within same wall of text, the model might not quite understand how things flow.
+
+-Make too much context involving for acting or speaking for the user or assuming their actions, this will likely have the llm mimic this in further responses.
+
+
+The Do's
+
+- Have a solid, in depth detail on the scenario, world building and interaction between the user and char from the start. This also helps with user retention when it comes to engagement.
+
+- Do not be afraid to leave this open: This cannot be understated, considering an open greeting can open the door to allowing interaction by any and all users respectively. That is not to say if want to keep things to a POV, you can still do so as wish.
+
+- Good flow: Keep the greeting concise and flowing naturally, if need be, have someone read over it or ask GPT to review the text and offer guidance on better flow.
+
+
+This all said, do not be afraid to experiment and adjust things as you need. End of the day, creativity ends with your imagination, however, the models themselves have fault and limits, and sadly pulling creativity from empty or low worded greetings is not their strong suit.
+
+
+Personality
+
+This is the next important aspect to any bot building, considering this gives the model the information it needs to work and provide context and bring your character to life as it were.
+
+Be concise on wording, you do not need to have a lot of length, since being too long winded can run your tokens fast when not careful. You can provide length, however, you may need to sacrifice certain other aspects, so plan accordingly.
+
+Depth, this is important to really try and bring things together in a neat little bundle. Do not be afraid to really let that verbosity fly, try and capture the depth of your character, their appearance, traits, motivations, goals etc etc, you really want to flesh this portion out as equally as the greeting.
+
+( Review the format options above to get ideas!)
+
+Miscellaneous
+
+Tagging
+
+This is one of the many final features and equally important. Considering, you need to tag a bot properly, considering this helps your character in search algorithms as it were. I understand the need for visibility, however, tagging the bot incorrectly hinders how the search work as well as exclusion aspects on site.
+
+⁠Tagging Guide
+
+Friendly guide to every tag on Spicy, the meaning of them and additional suggestions of tags for future implementation/return etc. 
+Big Beavis:ghost: — 7/6/24, 2:18 AM
+do you think something like this might work as intended if added to the part about setting?
+
+{{char}} may invent artificial history for the world when {{user}} wants to know more about the world; {{char}} may invent recent events regarding world-state if that can help inform the context of the scene or conversation, these may range from fantastical to mundane in nature.
+
+or is this unnecessary/pointless to include? or maybe should be worded differently?
+
+also maybe something like this afterwards
+
+That includes, but is not limited to: names of kingdoms, towns and other settlements; names of kings, knights, gods, villains and other prominent figures; names and contexts of past wars and battles, various legends and folklore; lore about the world's magic and miracles; char's own past experience as knight-paladin and as a person inhabiting this world. 
+𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕮𝖆𝖓𝖎𝖓𝖊 𝖁70Role icon, Supporter
+OP
+ — 7/6/24, 8:27 AM
+If going for something in line for an RPG/Narration bot, it works more than fine, considering the {{char}} in question is more telling the story, generating the content for the setting as it were.
+Big Beavis:ghost: — 7/6/24, 8:32 AM
+but what if it's for a non-narration bot, as in a person type character?
+𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕮𝖆𝖓𝖎𝖓𝖊 𝖁70Role icon, Supporter
+OP
+ — 7/6/24, 8:43 AM
+That might be a little difficult, however, you could attempt to illustrate it more in the greeting and try to flesh out the world within that and then add the fact the {{char}} will offer facts, trivia and conversational topics about the world, events, people when {{user}} asks during conversation.
+the 2nd portion fits more into personality since it would be something the char is willing to do in this instance.
+Big Beavis:ghost: — 7/6/24, 9:00 AM
+so, for example, if i write in the greeting that paladins study ancient history, and mention the bot being a paladin in both the greeting and personality, could that work?
+𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕮𝖆𝖓𝖎𝖓𝖊 𝖁70Role icon, Supporter
+OP
+ — 7/6/24, 9:02 AM
+It should, since you're giving the model reinforced information that allows it to reference as it needs.
+If needed further, you can make some example questions and responses in the example dialogue.
+DukeRole icon, Supporter — 7/9/24, 8:35 AM
+Generation Settings
+
+Before we dive into understanding these parameters we need to understand the difference between Greedy sampling and Random Sampling. Greedy sampling prioritizes the highest probability token, ensuring a focused output, while random sampling (using top-k or top-p) adds an element of randomness, resulting in a more varied and creative output. Most LLMs these days (such as GPT, Llama-2, Claude, etc.) use Greedy sampling and hence we need top-p and top-k parameter to control this randomness.
+
+Controlling the Randomness: Top-k and Top-P
+
+Top-k:
+The top-k parameter limits the model’s predictions to the top k most probable tokens at each step of generation. By setting a value for k, you are instructing the model to consider only the k most likely tokens. This can help in fine-tuning the generated output and ensuring it adheres to specific patterns or constraints.
+
+Top-p (Nucleus Sampling):
+Top-p, also known as nucleus sampling, controls the cumulative probability of the generated tokens. The model generates tokens until the cumulative probability exceeds the chosen threshold (p). This approach allows for more dynamic control over the length of the generated text and encourages diversity in the output by including less probable tokens when necessary.
+
+Top-k provides a controlled randomness by considering a fixed number of top probable tokens, while top-p allows for dynamic control of the number of tokens considered, leading to different levels of diversity in the generated text.
+
+Temperature:
+The temperature parameter is also used to control the randomness of the output. However, it influences the shape of the probability distribution that the model calculates for the next token rather than limiting the token selection. The temperature value is a scaling factor that’s applied within the final softmax layer of the model that impacts the shape of the probability distribution of the next token. A higher temperature (~1) results in more randomness and diversity in the generated text, as the model is more likely to explore a wider range of possible tokens. Conversely, a lower temperature (<1) produces more focused and deterministic output, emphasizing the most probable tokens.
